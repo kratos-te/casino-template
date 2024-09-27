@@ -1,0 +1,92 @@
+.modal-window-deleteconf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100000;
+}
+
+.modal-window-deleteconf__scale-cont {
+    position: relative;
+    width: 915px;
+    height: 666px;
+    transform: scale(0.7);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.modal-window-deleteconf__back {
+    position: absolute;
+    width: 915px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.modal-window-deleteconf__button_container {
+    position: relative;
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.modal-window-deleteconf__button_base {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-window-deleteconf__button_text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    font-family: Bevietnampro, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    top: 27%;
+    text-transform: uppercase;
+}
+
+.modal-window-deleteconf__back_bgtext {
+    margin: 0 64px;
+    position: relative;
+}
+
+.modal-window-deleteconf__back_bgtext_image {
+    width: 100%;
+}
+
+.modal-window-deleteconf__back_bgtext_account {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-window-deleteconf__form-container {
+    position: absolute;
+    width: 915px;
+    height: 566px;
+    z-index: 2;
+    top: 220px;
+}
+
+.modal-window-deleteconf__button_containermain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 30px auto;
+}

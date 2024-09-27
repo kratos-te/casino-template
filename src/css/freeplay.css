@@ -1,0 +1,173 @@
+.modal-window-fp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    z-index: 100000;
+}
+
+.modal-window-fp__scale-cont {
+    position: relative;
+    width: 915px;
+    height: 736px;
+    transform: scale(0.7);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.modal-window-fp__back {
+    position: absolute;
+    width: 915px;
+    height: 736px;
+}
+
+.modal-window-fp__title {
+    position: absolute;
+    z-index: 1;
+    top: 35px;
+    left: 270px;
+    transform: scale(0.7);
+}
+
+.modal-window-cross_icon {
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 88%;
+    cursor: pointer;
+}
+
+.modal-window-fp__phone_signup-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.modal-window-fp__phone_signup {
+    width: 30%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.modal-window-fp__form-container {
+    position: absolute;
+    width: 915px;
+    height: 566px;
+    z-index: 2;
+    top: 150px;
+}
+
+.modal-window-fp__form-container
+    .modal-window-fp__input_container:nth-child(4) {
+    margin-bottom: 20px;
+}
+
+.modal-window-fp__input_container {
+    position: relative;
+    width: 800px;
+    height: 67px;
+    left: 55px;
+    margin-bottom: 38px;
+}
+
+.modal-window-fp__input_bg {
+    width: 100%;
+    position: absolute;
+    object-fit: contain;
+}
+
+.modal-window-fp__input_placeholder {
+    position: absolute;
+    top: -32px;
+    left: 30px;
+    transition: top 0.3s, font-size 0.3s, transform 0.3s;
+    transform: scale(0.7);
+    transform-origin: left;
+}
+
+.modal-window-fp__input_field {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    color: #d0ffd0;
+    font-size: 22px;
+    font-family: Bevietnampro, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    outline: none;
+    padding-left: 30px;
+    z-index: 1;
+}
+
+.modal-window-fp__input_field::placeholder {
+    color: transparent;
+}
+
+.modal-window-fp__button_container {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    height: 70px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.modal-window-fp__button_base {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-window-fp__button_text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    font-family: Bevietnampro, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    top: 27%;
+    text-transform: uppercase;
+}
+
+.modal-window-fp__input_field::placeholder {
+    color: transparent;
+}
+
+.modal-window-fp__input_field:not(:placeholder-shown)
+    + .modal-window-fp__input_placeholder {
+    display: none;
+}
+
+.modal-window-fp__input_placeholder {
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    font-size: 22px;
+    font-family: Bevietnampro, sans-serif;
+    letter-spacing: 2px;
+    color: #f2d335;
+    font-weight: 700;
+    filter: drop-shadow(0px 3px 3.5px rgba(0, 0, 0, 0.77));
+    top: 30%;
+    left: 4%;
+    transition: top 0.3s, font-size 0.3s, transform 0.3s;
+}
+
+.modal-window-fp__input_signupline img {
+    max-width: 90%;
+    width: 100%;
+}
+
+.modal-window-fp__input_signupline_line {
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #006406;
+    width: 95%;
+}

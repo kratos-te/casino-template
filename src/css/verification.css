@@ -1,0 +1,122 @@
+.modal-window-verification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100000;
+}
+
+.modal-window-verification__scale-cont {
+    position: relative;
+    width: 915px;
+    height: 666px;
+    transform: scale(0.7);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.modal-window-verification__back {
+    position: absolute;
+    width: 1030px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.modal-window-verification__cross_icon {
+    position: absolute;
+    z-index: 1;
+    top: 26%;
+    left: 88%;
+    cursor: pointer;
+}
+
+.modal-window-verification__form-container {
+    position: absolute;
+    width: 915px;
+    height: 566px;
+    z-index: 2;
+    top: 45%;
+}
+
+.modal-window-verification__form-container
+    .modal-window-verification__input_container:nth-child(4) {
+    margin-bottom: 20px;
+}
+
+.modal-window-verification__input_container {
+    position: relative;
+    width: 800px;
+    height: 67px;
+    left: 55px;
+    margin-bottom: 38px;
+}
+
+.modal-window-verification__input_bg {
+    width: 100%;
+    position: absolute;
+    object-fit: contain;
+}
+
+.modal-window-verification__input_field {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    color: #d0ffd0;
+    font-size: 40px;
+    font-family: Bevietnampro, sans-serif;
+    font-weight: 700;
+    outline: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    z-index: 1;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+.modal-window-verification__input_field::placeholder {
+    color: transparent;
+}
+
+.modal-window-verification__input_field:not(:placeholder-shown)
+    + .modal-window-verification__input_placeholder {
+    display: none;
+}
+
+.modal-window-verification__button_container {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    height: 70px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.modal-window-verification__button_base {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-window-verification__button_text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    font-family: Bevietnampro, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    top: 27%;
+    text-transform: uppercase;
+}

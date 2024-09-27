@@ -1,0 +1,52 @@
+.modal-window-db__news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    z-index: 100000;
+}
+
+.modal-window-db__news__scale-cont {
+    position: absolute;
+    width: 1400px;
+    height: 850px;
+    transform: scale(0.7);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.modal-window-db__news__back {
+    position: absolute;
+    width: 1400px;
+    height: 736px;
+}
+
+.modal-window-db__news__cross_icon {
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+    width: 40px;
+}
+.modal-window-db__news__content-container {
+    position: absolute;
+    width: 915px;
+    height: 530px;
+    z-index: 2;
+    top: 140px;
+    left: 50px;
+    display: flex;
+}
+
+.modal-window-db__news__popup_btn {
+    position: absolute;
+    width: 550px;
+    height: 70px;
+    top: 85%;
+    left: 20px;
+    cursor: pointer;
+}

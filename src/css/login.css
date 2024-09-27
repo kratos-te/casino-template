@@ -1,0 +1,127 @@
+.modal-window-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 100000;
+}
+
+.modal-window-login__border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.modal-window-login__scale-cont {
+    position: relative;
+    transform-origin: 50%;
+    width: 1300px;
+    height: 403px;
+    z-index: 101;
+}
+
+.modal-window-login__logo {
+    position: absolute;
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    top: -250px;
+    pointer-events: none;
+}
+
+.modal-window-login__login_logo {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.modal-window-login__down {
+    position: absolute;
+    top: 150px;
+}
+
+.modal-window-login__login_bg {
+    position: absolute;
+    width: 1300px;
+    height: 403px;
+    pointer-events: none;
+}
+
+.modal-window-login__text-id {
+    top: 110px;
+}
+
+.modal-window-login__text-password {
+    top: 255px;
+}
+
+.modal-window-login__input_field {
+    position: absolute;
+    resize: none;
+    border: #000000;
+    font-family: Bevietnampro, sans-serif;
+    width: 600px;
+    height: 60px;
+    left: 90px;
+    font-size: 28px;
+    outline: none;
+    color: #f2d335;
+    background: transparent;
+    box-shadow: none;
+    z-index: 2;
+}
+
+.modal-window-login__login {
+    top: 130px;
+    left: 891px;
+}
+
+.modal-window-login__fplay {
+    top: 245px;
+    left: 891px;
+}
+
+.modal-window-login__btn {
+    position: absolute;
+    cursor: pointer;
+    width: 310px;
+    z-index: 10;
+}
+
+.modal-window-login__radio_container {
+    cursor: pointer;
+    position: absolute;
+    top: 60px;
+    left: 850px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    width: 350px;
+}
+
+.modal-window-login__radio_inactive,
+.modal-window-login__radio_active {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+}
+
+.modal-window-login__radio_text {
+    font-size: 28px;
+    font-family: Bevietnampro, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #f2d335;
+    cursor: pointer;
+}

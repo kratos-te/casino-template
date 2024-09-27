@@ -1,0 +1,167 @@
+.modal-window-db {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    z-index: 100000;
+}
+
+.modal-window-db__scale-cont {
+    position: absolute;
+    width: 915px;
+    height: 850px;
+    transform: scale(0.7);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.modal-window-db__back {
+    position: absolute;
+    width: 915px;
+    height: 736px;
+}
+
+.modal-window-db__cross_icon {
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    left: 85%;
+    cursor: pointer;
+    width: 40px;
+}
+
+.modal-window-db__content-container {
+    position: absolute;
+    width: 915px;
+    height: 566px;
+    z-index: 2;
+    top: 160px;
+}
+
+.modal-window-db__title-container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-window-db__title-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.modal-window-db__progress-img-container {
+    width: 85%;
+    margin-left: 7%;
+    position: relative;
+}
+
+.modal-window-db__progress-text {
+    position: absolute;
+    top: 30px;
+    right: 28px;
+    font-size: 30px;
+    font-family: Bevietnampro, sans-serif;
+    letter-spacing: 2px;
+    color: #f2d335;
+    font-weight: 700;
+    text-align: center;
+    filter: drop-shadow(0px 3px 3.5px rgba(0, 0, 0, 0.77));
+}
+
+.modal-window-db__progress-img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.modal-window-db__empty-slot {
+    width: 90px;
+    object-fit: contain;
+    position: absolute;
+    top: 20px;
+    left: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.modal-window-db__empty-slot.slot-1 {
+    left: 38px;
+}
+.modal-window-db__empty-slot.slot-2 {
+    left: 128px;
+}
+.modal-window-db__empty-slot.slot-3 {
+    left: 216px;
+}
+.modal-window-db__empty-slot.slot-4 {
+    left: 306px;
+}
+.modal-window-db__empty-slot.slot-5 {
+    left: 394px;
+}
+.modal-window-db__empty-slot.slot-6 {
+    left: 484px;
+}
+.modal-window-db__empty-slot.slot-7 {
+    left: 572px;
+}
+
+.modal-window-db__note_container {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -120px;
+    font-size: 24px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: Bevietnampro, sans-serif;
+    text-align: center;
+}
+
+.modal-window-db__collect_container {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -30px;
+}
+
+.modal-window-db__button_container {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    cursor: pointer;
+}
+
+.modal-window-db__button_base {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.modal-window-db__button_text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 28px;
+    font-family: Bevietnampro, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    top: 26%;
+}

@@ -1,0 +1,39 @@
+.modal-window-codestatus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100000;
+}
+
+.modal-window-codestatus__scale-cont {
+    position: relative;
+    width: 915px;
+    height: 666px;
+    transform: scale(0.7);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.modal-window-codestatus__back {
+    position: absolute;
+    width: 915px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.modal-window-codestatus__text {
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}

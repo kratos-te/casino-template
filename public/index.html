@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <meta name="format-detection" content="telephone=no">
+      <meta name="browsermode" content="application">
+      <meta name="full-screen" content="yes">
+      <meta name="x5-fullscreen" content="true">
+      <meta name="360-fullscreen" content="true">
+      <meta name="screen-orientation" content="">
+      <meta name="x5-orientation" content="">
+      <meta name="x5-page-mode" content="app">
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script src="js/jquery.fullscreen-min.js"></script>
+    <title>React App</title>
+      <style>
+          html {
+              -ms-touch-action: none;
+          }
+          body,
+          canvas,
+          div {
+              display: block;
+              outline: none;
+              -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+              user-select: none;
+              -moz-user-select: none;
+              -webkit-user-select: none;
+              -ms-user-select: none;
+              -khtml-user-select: none;
+              -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+          }
+          body {
+              margin: 0;
+              font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+              'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+              sans-serif;
+              -webkit-tap-highlight-color: rgba(255, 255, 255, 0.1);
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+              -webkit-text-size-adjust: 100%;
+              overflow: hidden;
+              width: 100vw;
+              height: 100%;
+              /*background-color: black;
+              background: url('images/frenzy/back.png');
+              background-size: cover;*/
+          }
+          #back {
+              position: absolute;
+              z-index: -999;
+              top: 0;
+              height: 100%;
+              width: auto;
+              min-width: 100vw;
+              min-height: 100vh;
+          }
+      </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <img id="back" src="images/frenzy/back.png" alt=""/>
+  </body>
+</html>

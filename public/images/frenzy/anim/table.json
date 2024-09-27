@@ -1,0 +1,251 @@
+﻿{"frames": {
+
+"Символ 17 instance 10000":
+{
+	"frame": {"x":0,"y":0,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10001":
+{
+	"frame": {"x":165,"y":0,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10002":
+{
+	"frame": {"x":330,"y":0,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10003":
+{
+	"frame": {"x":495,"y":0,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10004":
+{
+	"frame": {"x":660,"y":0,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10005":
+{
+	"frame": {"x":660,"y":0,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10006":
+{
+	"frame": {"x":825,"y":0,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10007":
+{
+	"frame": {"x":825,"y":0,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10008":
+{
+	"frame": {"x":0,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10009":
+{
+	"frame": {"x":0,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10010":
+{
+	"frame": {"x":165,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10011":
+{
+	"frame": {"x":165,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10012":
+{
+	"frame": {"x":165,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10013":
+{
+	"frame": {"x":330,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10014":
+{
+	"frame": {"x":330,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10015":
+{
+	"frame": {"x":330,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10016":
+{
+	"frame": {"x":165,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10017":
+{
+	"frame": {"x":165,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10018":
+{
+	"frame": {"x":165,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10019":
+{
+	"frame": {"x":0,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10020":
+{
+	"frame": {"x":0,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10021":
+{
+	"frame": {"x":495,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10022":
+{
+	"frame": {"x":825,"y":0,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10023":
+{
+	"frame": {"x":825,"y":0,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10024":
+{
+	"frame": {"x":660,"y":0,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10025":
+{
+	"frame": {"x":660,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10026":
+{
+	"frame": {"x":495,"y":0,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10027":
+{
+	"frame": {"x":825,"y":179,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10028":
+{
+	"frame": {"x":165,"y":0,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+},
+"Символ 17 instance 10029":
+{
+	"frame": {"x":0,"y":0,"w":165,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":179},
+	"sourceSize": {"w":165,"h":179}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "20.5.1.31044",
+	"image": "table.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":512},
+	"scale": "1"
+}
+}
